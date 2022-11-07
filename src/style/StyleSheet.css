@@ -1,0 +1,32 @@
+.btn {
+    -fx-font-veight: 700;
+    -fx-background-color: #CFCFCF;
+    -fx-font-size: 18;
+    -fx-font-family: "Segoe UI Semibold";
+}
+.btn:hover {
+    -fx-transition: 2s;
+    -fx-background-color: #9C9C9C;
+}
+
+.tela{
+    -fx-border-color: 	#FF4500;
+    -fx-border-width: 5px 5px 5px 5px;
+}
+.sbtn1{
+    -fx-text-fill: white;
+    -fx-background-color: #CD3700;
+    -fx-font-family: "Segoe UI Semibold";
+       -fx-font-size: 14;
+}
+.sbtn1:hover{
+    -fx-background-color: #FF4500;
+}
+.btncomecar{
+    -fx-background-color: #CFCFCF;
+    -fx-border-radius: 50;
+}
+
+.btncomecar:hover {
+    -fx-background-color: #9C9C9C;
+}

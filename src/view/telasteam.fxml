@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" styleClass="tela" stylesheets="@../style/StyleSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.telasteamController">
+   <children>
+      <Button fx:id="btnsnake" layoutX="274.0" layoutY="203.0" mnemonicParsing="false" onAction="#chamagameSnake" prefHeight="37.0" prefWidth="153.0" styleClass="sbtn1" stylesheets="@../style/StyleSheet.css" text="Snake Game" />
+      <Button fx:id="btnFlappy" layoutX="274.0" layoutY="269.0" mnemonicParsing="false" onAction="#ChamarFlappy" prefHeight="37.0" prefWidth="153.0" styleClass="sbtn1" stylesheets="@../style/StyleSheet.css" text="Flappy Bird" />
+      <Button fx:id="btnRecords" layoutX="274.0" layoutY="334.0" mnemonicParsing="false" onAction="#chamarRecords" prefHeight="37.0" prefWidth="153.0" styleClass="sbtn1" stylesheets="@../style/StyleSheet.css" text="Records" />
+      <Button fx:id="btnsair" layoutX="274.0" layoutY="401.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="153.0" styleClass="sbtn1" stylesheets="@../style/StyleSheet.css" text="Exit" />
+      <Label layoutX="196.0" layoutY="24.0" prefHeight="83.0" prefWidth="304.0" text="Apps Street" textFill="#8b2500">
+         <font>
+            <Font name="Corbel" size="61.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="72.0" fitWidth="72.0" layoutX="314.0" layoutY="111.0">
+         <image>
+            <Image url="@../imagens/game-controller.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
